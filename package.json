@@ -1,6 +1,6 @@
 {
   "name": "browserslist-mixpanel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Target browsers tailored to your audience",
   "repository": "github:timofloettmann/browserslist-mixpanel",
   "keywords": [
