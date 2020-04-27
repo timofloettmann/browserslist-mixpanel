@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Target browsers tailored to your audience",
   "repository": "github:timofloettmann/browserslist-mixpanel",
+  "keywords": [
+    "mixpanel",
+    "browserslist"
+  ],
   "license": "MIT",
   "bin": {
     "browserslist-mixpanel": "./src/cli.js"
@@ -22,7 +26,6 @@
   "dependencies": {
     "binary-split": "^1.0.5",
     "minimist": "^1.2.5",
-    "node-fetch": "^2.6.0",
     "request": "^2.88.2"
   },
   "devDependencies": {
