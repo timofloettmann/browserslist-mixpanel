@@ -1,0 +1,33 @@
+{
+  "name": "browserslist-mixpanel",
+  "version": "0.0.1",
+  "description": "Target browsers tailored to your audience",
+  "repository": "github:timofloettmann/browserslist-mixpanel",
+  "license": "MIT",
+  "bin": {
+    "browserslist-mixpanel": "./src/cli.js"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/**/*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "binary-split": "^1.0.5",
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.5",
+    "prettier": "^1.19.1"
+  }
+}
